@@ -1,0 +1,20 @@
+CSS SELECTORS:-
+
+1). ELEMENT SELECTOR: The element selector is used when we want everything to gain the property of that selector. means if we specify p(paragraphs) then all paragraphs will gain the properties(check on vs code tut14).
+
+We can use selectors for heading means we have a seperate selector for heading h3,h2,h1 etc agar h2 pe koi property lagai h in element selector to every h2 heading will retain that property.
+
+2). ID SELECTOR: The id selector is used when we want specific paragraph or heading etc to retrain the property. Ham us heading ya paragpraph ko id assign krte hein or selector ko wo id btate hein is trha sirf uski id wala paragraph ya heading per wo property apply hoti h. We write id with #
+
+3). CLASS SELECTOR: The class selector is used same as id selector but class is not unique but id is unique to ham ek class ko multilple paragraphs ko assign kr skte hein agar ham id selector use kren to wo ek sepecific para ya heading k lie he kr skte hein as it is unique. And (.) is used for class remeber.
+
+ID AND CLASS SELECTOR USE: Jab hamy kisi ek specific element koi cheez chahty hein , but agar ham multiple elements mein same cheez chahty hein to udr class selector use kren ge.
+
+ID WILL HAVE THE FIRST PREFERENCE , THAN CLASS
+
+COMMENTS IN CSS /*COMMENT*/
+
+GROUPING SELECTOR : This selector is used to apply grouped properties on different elements such as span footer paragraph heading etc.. syntax 
+ footer , span {
+            background-color: papayawhip;
+        }

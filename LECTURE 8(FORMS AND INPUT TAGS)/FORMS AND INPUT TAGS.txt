@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <H2>this is html forms</H2>
+    <form action="backend.php"> <!--just leave this action tag for now-->
+        <label for="name">Name</label> <!--label is ued to click name and it will redirect to the text area , id and for should be same to redirect to that tag-->
+        <div>
+             <input type="text" id="name">
+        </div>
+        <br> 
+        <label for="class">Class:</label>       
+        <div>
+             <input type="text" id="class">
+        </div>
+        <br>
+        <label for="email">Email:</label>
+        <div>
+             <input type="email" name="Asad" id="email"> <!--name is to identify email from backend(action)-->
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="" id="">
+        </div>
+        <br>
+        <div>
+           Bonus: <input type="number" name="MyBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligibile <input type="checkbox" name="MyEligibility">
+        </div>
+        <br>
+        <div>
+            Are you eligibile <input type="checkbox" name="MyEligibility" checked> <!--BYDEFAULT CHECK-->
+        </div>
+        <br>
+        <div>
+            <!--when name is same as in this MyGender then only one radio button will be selected not two at same time-->
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+            <div>
+                Write Something:<br> <textarea name="MyText"  cols="30" rows="5"></textarea>
+            </div>
+    
+            
+            <br>
+            <div>
+               <label for="car">Select Car</label>
+               <select name="car" id="car">
+                <option value="swift">Swift</option>
+                <option value="Civic" selected>Civic</option> <!--CIVIC will be bydeafult selected-->
+                <option value="GLI">GLI</option>
+               </select>
+            </div>
+        </div>
+        <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <br>
+    </form>
+</body>
+</html>

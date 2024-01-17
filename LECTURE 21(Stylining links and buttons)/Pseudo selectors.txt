@@ -1,0 +1,17 @@
+This lecture is about desigining of buttons:-
+
+We will design buttons almost same like we design container or paragraphs like we give them class and then style them in style tag.
+
+If we want no border then we will use border:none property.
+
+If we want k jab ham pointer button per le kr jaen to jese kisi link per le kr jate hein wese behave kre to we will use cursor: pointer property.
+
+Anchor tag kyun k link k lia use hota h to jab ham anchor (a) tag use krengy to usme underlined likha aega jo b aega. to agar us underlining ko hatana he to we will use text-decoration: none; property.
+
+PSEUDO PROPERTIES:-
+
+hover property: This property is used when we want jab ham cursor button per le kr jaen to button k text ka color change hojae. Also we can change background color in it.
+
+Visite property: Jab hamne koi link dia ho or wo ek dfa khol lia jae , to uske bd us link button per kia properties apply hon(yani ek dfa link kholne k bad color change hojae to ye use krte hein).
+
+Active property: Jab ham button per press kren to button ka color kesa ho...uske lie active property ka use hota h.

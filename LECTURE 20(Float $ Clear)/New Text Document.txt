@@ -1,0 +1,11 @@
+HERE WE WILL LEARN ABOUT THE ALLIGNMENT PROPERTIES:-
+
+Margin: auto -> this property is used to center the element..means container ya kisi para ko center me lana h to margin auto use krenge , that will automatically put it in the center. It will automatically calculate the margin from left and right.
+
+or margin: 33px auto; (ye Y axis 33px krde or x-axis ko auto krdega means center ma krde ga).
+
+If we want our paragraph or container to be on the left or right we can use FLOAT:left/right; tag iske sth width dena lazmi he in percentage(%).
+
+When we are designing different divs. To kbi kbi overlap hojaty hein divs ek dusre ke oper. To jis k oper ham overlapping ni chahty uspe ham CLEAR:left/right property use krte hein. Means baki divs agar hamare right per hein jo overlap kr rhe hein to ham clear right krdenge etc Agar dono side se krvana he clear to we will use   CLEAR BOTH. Ya js bhe overlapping sa hamein bachna he us direction me clear property laga denge.
+
+Text-allign: left/right/center to allign text in left or allign text/

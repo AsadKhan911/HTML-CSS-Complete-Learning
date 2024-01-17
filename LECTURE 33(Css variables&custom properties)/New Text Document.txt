@@ -1,0 +1,13 @@
+CSS VARIABLES:-
+
+The css variables are used when we want k ham koi esi property rkhna chahty hein jo k kafi jaga apply horhi he to ham us property(color,size anything) ko variables k ander rakh lenge or jaha hamne wo color wgera dalna he to us jaga us variable ko likh denge.
+
+SYNTAX : --boxcolor: blue/red etc
+
+While giving variable to any element we use var(--boxcolor)
+
+LOCAL AND GLOBAL VAR:-
+
+If we initialize any variable in any element in style tag to ham usi bracket k ander us variable ko access kr skte hein. This is known as LOCAL VARIABLE.
+
+But if we want that ak he variable ko ham kafi jaga use kren to we will use GLOBAL VARIABLE by adding :root{} in our style tag. Is root k ander jo jo variables define hongy unko ham globally use kr skte hein..

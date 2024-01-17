@@ -1,0 +1,8 @@
+DOCTYPE html = means it is an html document(telling the browser)
+<html lang="en"> means we are opening html tag and telling langugae is english
+and there is a head in the tag
+HEAD contains meta tags (data about data(keys words , description)) aswell title
+BODY contains the content of the website.
+
+comment syntax in html <!--content-->
+auto comment = write something and press ctrl+/

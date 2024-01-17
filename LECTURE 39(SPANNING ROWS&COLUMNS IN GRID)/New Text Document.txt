@@ -1,0 +1,12 @@
+.box:first-child
+        {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+This will give the space to first box starting from very first line and ending to third line (COLUMN WISE).
+ .box:first-child
+        {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+This will give the space to first box starting from very first line and ending to third line.(ROWS WISE). It is use to make size of the targeted box big.

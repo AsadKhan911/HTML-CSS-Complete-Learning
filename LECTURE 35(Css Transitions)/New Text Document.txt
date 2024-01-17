@@ -1,0 +1,8 @@
+TRANSITIONS:-
+
+To make transition in element use property TRANSITION-PROPERTY: BACKGROUND-COLOR; (Or any thing you want to insert)
+After that use that class or id with a hover property and set accordingly (CHECK THE TUT35.HTML IN VS CODE FOR BETTER UNDERSTANDING).
+
+We have same transitions properties for animation as well like ease-in , ease-out , transition-delay etc
+
+We can also transit the size of an element just like we transit background color (JUST WRITE THE REQUIRED THE SIZE (WIDTH,HEIGHT) IN HOVER SECTION) and set the TRANSITION-PROPERTY: ALL Instead of BACKGROUND-COLOR.

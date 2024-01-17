@@ -1,0 +1,36 @@
+EMMETS:-
+
+write h1 and it will give u the suggestion and click on it
+h1 is basically the heading tag
+we can use the 6 headings till h6
+
+write p1 and it will give u the suggestion and click on it
+p1 is basically the parapgraph tag
+and if we want to write new paragraph again use the p tag and write the content it will start the new paragraph from next line
+
+Lorem is use to produce dummy text(dhfhdnfnd like we write this just to check)
+write lorem and then 4 and click(it will generate 4 random words) or write lorem and then 40 and then click(means 40 words) etc
+
+If you want to set the text in a parapgrah(mtlb ek line ma agy tk janay k bajae set hojae ek paragraph mein) for that
+click on setting tab then command pallet and type toggle word wrap and click or just press (ALT+Z).
+
+If you want to write more than one parapgrah tags write p*4 or p*5 and enter it will produce 4-5 parapgraph tags.
+
+HTML only consists of tags and attributes , p,h,meta,body,title,head all these are tags and 'charset=utf8' is attribute ,, after = are attributes
+Means html is nothing just the combination of tags and attributes
+
+If we want to highlight some line or any word we will use the key word strong and write the content in that tag so that it will bold that word or line in the paragraph. (USE STRONG WHERE U WANT TO BOLD THE TEXT)
+
+If we want to emphasize then we will use em tag. and write content in that. emphasize means not strong(bold) , but it will change the syntax of that specific part just to make it emphasize. (USE EM TAG WHERE YOU WANT TO ATALIC THE TEXT)
+
+If we want new line in the paragraph we will use the br tag <br> this is a self closing tag.
+
+If we want a horizontal line after the parapgraph to like it end like this
+___________________________________________________________________________ ( we will use hr <hr> tag)
+
+CTRL+ENTER to jump into the new line(where ever your cursor is it will bring you in the new line)
+
+
+
+
+

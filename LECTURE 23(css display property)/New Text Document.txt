@@ -1,0 +1,15 @@
+Header:-
+
+When we use header to wo pora ka pora block leta he jaga k hisab se , but agar ham chahty hein k wo thori jaga le to ham width set krte hein uski.
+
+Display Inline : Jo display inline hoti he wo sari jga ni leti , balkay jitna uska size hota he wo bs utni jaga leta he , eg : image(img).
+
+Display Outline : Ye pora ka pora block leta he beshak khud ak word k brbr ho , like header etc.
+
+Jab ham image lagaty hein to wo ek inline element he means utni jaga le ga jtni uski width he , but agar hamne img ko center me krna he to phele use pori ki pori jaga dengy means usko display outline banaengy.
+
+HOW TO MAKE INLINE ELEMENT TO OUTLINE : For this we use the property display: block; as we will do for image then ham usko center krden by margin: auto property.
+
+If we want element inline b rhe and ham uski width b set krsken to we will use display:inline-block; property.
+
+ box-sizing: border-box; /*jo width di hoti he wohi rhti he , including margin and padding , change ni hoti*/

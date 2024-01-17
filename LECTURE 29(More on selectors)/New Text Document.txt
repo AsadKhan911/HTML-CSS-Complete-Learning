@@ -1,0 +1,14 @@
+div p
+{
+}
+This selector means jaha jaha p(paragraph) use hua h or wo kisi bhe div k ander to un sb pr ye property laga do.
+
+div > p
+{
+}
+This selector is used when we want to target the direct child of the divs.
+
+div + p
+{
+}
+This selector is used when we want p ke blkl oper div hona chiaye , jis jis p k oper div hoga , wheter a closing div or opening , us p per affect hojaega. we can also use this selector with different elements aswell.

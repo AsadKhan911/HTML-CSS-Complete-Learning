@@ -1,0 +1,14 @@
+FONT SIZE UNITS FOR RESPONSIVENESS:-
+
+1). EM UNIT: em unit ham jab bhe use krte hein kisi bhe font size k sth ya div k sth to wo apny parent k utnay gunah hojata he. 
+for example agar parent container k font ka size 10px h or hamne 10em child div ko dia h to child div 10*10 hojaega.
+If parent container is 4px and child div is 4em then 4*4=16px is child div.
+
+If in child size i use padding also and give padding a value of 2em then the value will be 4*4*2=32px.
+
+2). REM UNIT: rem unit is same like em the main difference is em set px according to parent size but rem sets according to base html. and jis trha em mein hamne padding use ki or wo phele parent ka size * parent * child krta tha rem me esa ni hoga sb value ek bar base html sa multiply hongi or unka size us hisab sa compute hojaega.
+
+MAIN UNITS:-
+
+1). VH UNIT: This unit vh(viewport height) is used jab hamne apny div ki height ka size pore screen view k hisab sa pora pora rkhna ho to ham 100vh likhengy.
+2). VW UNIT: This is same as vh just isme height ki jaga width pori pori le leta ,, we write 100vw means whole screen width.

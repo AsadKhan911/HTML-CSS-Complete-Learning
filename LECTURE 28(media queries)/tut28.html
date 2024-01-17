@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .box
+        {
+            font-size: 72px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            display: none;
+        }
+        
+        @media only screen and (max-width:300px) /*if no minimum given then it means minimum is from 0px*/
+        {
+            #box-1
+            {
+                display: block; /*meains to display it on the screen*/
+                background-color: red;
+            }
+        }
+
+        @media only screen and (min-width:300px) and (max-width:500px) 
+        {
+            #box-2
+            {
+                display: block; /*meains to display it on the screen*/
+                background-color: yellow;
+                color: black;
+            }
+        }
+        @media only screen and (min-width:500px) and (max-width:800px) 
+        {
+            #box-3
+            {
+                display: block; /*meains to display it on the screen*/
+                background-color: green;
+            }
+        }
+        @media only screen and (min-width:800px) /*if no max-width is defined then it means upto infinite pixel*/
+        {
+            #box-4
+            {
+                display: block; /*meains to display it on the screen*/
+                background-color: lightseagreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">Main ek Iphone hoon</div>
+    <div class="box" id="box-2">Main ek Tablet hoon</div>
+    <div class="box" id="box-3">Main ek Computer hoon</div>
+    <div class="box" id="box-4">Main ek Widescreen Computer hoon</div>
+</body>
+</html>

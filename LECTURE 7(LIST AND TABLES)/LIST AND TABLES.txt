@@ -1,0 +1,53 @@
+LISTS AND TABLES:-
+
+LISTS:-
+
+If we want to insert a list like this:- unordered list
+*Asad
+*Ali
+*Ahmed
+Then we will use the syntax 
+<ul>
+<li>Asad<li>
+<li>Ali<li>
+<li>Ahmed<li>
+</ul>
+
+If we want to insert a list like this:- ordered list
+1. Asad
+2. Ali
+3. Ahmed
+Then we will use the syntax 
+<ol>
+<li>Asad<li>
+<li>Ali<li>
+<li>Ahmed<li>
+</ol>
+
+If you dont want ordered list to be with 1,2,3 you can write <ol type="I"> or <ul type="i"> so that it will change it into roman. or type="a" for a,b,c order
+
+We can also nest one list into another list
+syntax :
+<ul>
+<li>Asad<li>
+<li>Ali<li>
+<li>
+<ul>
+   <li>Another one</li>
+   <li>Second one</li>
+   <li>TThirds one</li>
+</ul>
+<li>
+</ul>
+
+TABLES:-
+To make table in html we first use syntax <h3></h3> or h4 to define the size of heading of table(it is not compulsory to put heading for a table)
+Second we use <table></table> tag and put rows in this by <thead></thead> tag
+table head(thead) contains all the attributes name which we define one by one in <th></th> tag
+
+Second after closing thead tag we use table body tag which is <tbody></tbody> which contains all the values for the attributes
+then we put <tr></tr> tag into tbody tag
+and then td tag(table data) <td></td> one by one to insert data into rows of the table
+
+
+

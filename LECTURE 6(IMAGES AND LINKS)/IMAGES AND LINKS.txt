@@ -1,0 +1,17 @@
+IMAGES AND LINKS
+
+LINKS:-
+
+If we want to emmbed link on the website we will use anchor tag..just press a for this and suggestion will come , and write the link in href section. and write text in this part >< after href .. to view that text on the page and when someone clicks on that text it will redirect to that link. (we can post multiple links).
+
+For the upper tag when we click on the link it will open the wesbite in the same tab. But if we want to open in a new link we will use target="_blank" just after the link closing "
+
+The upper tag in first line was just to attach external links but if we want to attach internal links then syntax will be same just "/" on the start. 
+<a href="/http://google.com"a> like this.
+
+IMAGES :-
+
+If we want to add link on the website , we just write img and click. and click on simple img. it will ask for two values 1 is src and second is alt. in src we will write the image path that where is in the pc(which folder) but if we dont want to add path we have to place image in the visual studio as a file and add that image in src. And alt is for when image is not loading due to some error so we add some texts to overcome it (like image not loading etc).
+
+For random images go to website source unsplash.com(or any image with links website from the internet)(we can also use search terms in these website to get our desired image link...learn this thing from youtube if u want it)(you can also specify the size of the image by updating the link).
+

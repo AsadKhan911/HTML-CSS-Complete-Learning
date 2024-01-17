@@ -1,0 +1,11 @@
+CHROME DEVELOPER TOOL:-
+
+This tool is used to change the code in the chrome. for example ham kisi website pe hein or udr kisi element ko ham change kr k dekhna chahty hein to uspe cursor la kr right click kren gy and then inspect to ham uske code tk pohnch jaenge then we can change. but change will be temporary. 
+
+It only changes view not vs code file code.
+
+Agar koi bari website h or uske elements dhundna mushkil h to top left corner me arrow ka symbol h usper click kr k kisi b element pr cursor ko rkhen to wo us element k code tk apko pohncha de ga.
+
+We can also go on anyother websites and inspect them and play with them for our knowledge. Also we can change the texts in the websites by inspecting.
+
+We can also change emails or whatsapp messages throught inspection.

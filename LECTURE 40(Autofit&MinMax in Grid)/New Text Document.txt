@@ -1,0 +1,2 @@
+ grid-template-columns: repeat(auto-fit , MINMAX(400px , 1fr)); 
+This is used in responsive designing...when we decrease the screen size it will show box according to the given size.Means minimum size of the box will be 400px and maximum will be 1fr...to jab ham screen size kam krenge to 400px k hisab sa jtne columns show honge screen utna dikhaye gi otherwise agar full screen hogi to 400px 400px k boxes pori screen par ajaengy. 

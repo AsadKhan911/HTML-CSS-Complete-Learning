@@ -1,0 +1,32 @@
+PSEUDO SELECTORS:-
+
+input['type=text']
+{
+}
+If we want to target input tag with its input type we will use this
+
+target=_blank : To open anchor tag link in new tab.
+
+a[target]
+{
+}
+If we want only those anchor tags to affected , jinka target set ho to we will use this tag. In this every anchor tag with any target type will get affected.
+
+a[target type='_self'] 
+{
+}
+If we want to target anchor tag by its specific target type then we use this.
+
+NTH CHILD PSEUDO SELECTOR:-
+
+li:nth-child(8)
+{
+}
+Suppose we have ul with multiple li's. We want to target specific li without giving it class we use this selector by giving it li number.
+
+ li:nth-child(2n+0) or also li:nth-child(even)
+{
+}
+Agar ham hr dusre element ko target krna chahty hein to write 2n+0 (2,4,6,8 etc) Means it will target even numbers.
+
+li:nth-child(odd) FOR ODD ONES.

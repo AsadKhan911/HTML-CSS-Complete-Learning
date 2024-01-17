@@ -1,0 +1,19 @@
+INLINE CSS:-
+
+In inline css ham html k syntax k ander hee css ko use krte hein. eg <p style="color: red;">This tutorial will teach you.....</p>
+style = color : red; inline css hei baki <p> tag html tag h to write paragraph..We can also write more properties in a single style as <p style="color:red; background-color:yellow;"> etc
+
+INTERNAL CSS:-
+
+In internal css we write it in the head body by inserting first style tag and then write everything in the style tag. eg <style> p{color:red}</style> p is for paragraph and it is known as selector. But if we have applied both inline and internal css both the visual studio or anyother will always give preference to inline css rather than internal css (do whatever written in inline css) , but if we remove inline css then it will do according to internal css.
+
+STYLE SHEET:-
+
+Style sheets are basically used jab hamare pas seperate css ki file ho or uske ander content ho. Ham ni chahty ham sare ka sara content same html file me likhen bajae alag sa css file bana len or usko html file k sth link krlen just. ta k modification b easy ho or sb mixup b na ho..
+Syntax , write link:css and press enter.
+
+PREFERENCE : Inline css has the highest preference , Internal css and the external css(style sheet) me sbse ziada prefernece usko milegi jo sbse bad ma likhi hogi...means agar teeno applied hon to inline will consider, agar internal or external applied hon to jo sbse bad ma likhi hogi un dono me se wo consider hogi..
+
+ONE MORE THING: Jo cheez bad ma likhi hogi sbse wo sbse ziada presidence legi..means jo bd ma likhi hogi woi implement hogi. but if you want k ek css phele likhi h or apne usi ko apply b krwana h to write important with that..syntax = !important
+
+Prefernece wali bt tab pta chalegi jab ham sbke sth !important likhengy but jo sbse bad ma likha hoga woi apply horha hoga..

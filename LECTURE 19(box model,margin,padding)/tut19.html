@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0; /* bad me over write krden gy har element k hisab sa jtna pixel dene hongy
+                            shuru me bs zero rhe sbki margin padding*/
+        }
+        body
+        {
+            background-color: #950d1b;
+        }
+        .container
+        {
+            background-color: lightcoral;
+            border: 4px solid black;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 40px;
+        }
+        #pid
+        {
+            background-color: lightgreen;
+            border: 4px solid black;
+           padding-left: 50px;
+           padding-bottom: 40px;
+          /* margin-top: 70px;    we can do margin , padding like this aswell for our choice sides
+           margin-right: 60px;*/
+           padding: 30px 40px 25x 40px; /*directly TOP,RIGHT,BOTTOM,LEFT(TRBL)*/
+           margin : 30px 40px 25px 40px;
+           border-radius: 40px;
+           width: 400px;
+           height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>Margin and Padding</h4>
+        <p>Here we will learn all about margin and padding</p>
+    </div>
+
+    <div class="container">
+        <h4>Margin and Padding</h4>
+        <p>Here we will learn all about margin and padding</p>
+    </div>
+
+    <div id="pid">
+        <h4>Margin and Padding</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas assumenda dignissimos beatae doloremque possimus quod ab culpa laudantium praesentium, veniam eum repellat autem id officiis delectus ipsa sed nobis non!</p>
+    </div>
+</body>
+</html>

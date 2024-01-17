@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables $ Custom Properties</title>
+    <style>
+        :root /*GLOBAL VARIABLE*/
+        {
+            --bgroundcolor: rgb(172, 54, 72);
+            --boxshadow: rgb(95, 206, 206);
+            --maxwidth : 400px;
+        }
+        .box
+        {
+            --boxcolor: rgb(0, 128, 0); /*LOCAL VARIBALE*/
+            --shadowcolor: yellow;      /*LOCAL VARIABLE*/
+            width: 200px;
+            height: 200px;
+            background-color: var(--boxcolor);
+            box-shadow: 5px 5px 10px var(--shadowcolor);
+            margin: 2px 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container
+        {
+            border: 2px solid red;
+            display: flex;
+        }
+        #box1
+        {
+            background-color: var(--bgroundcolor);
+            box-shadow: 5px 5px 10px var(--boxshadow);
+            max-width: var(--maxwidth);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="box">THIS IS LOCAL VARIABLE AFFECT</div>
+        <div class="box">THIS IS LOCAL VARIABLE AFFECT</div>
+        <div class="box">THIS IS LOCAL VARIABLE AFFECT</div>
+        <div id="box1">THIS IS GLOBAL VARIABLE AFFECT</div>
+        I am container</div>
+</body>
+</html>

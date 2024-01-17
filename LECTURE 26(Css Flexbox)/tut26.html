@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container
+        {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+           /* flex-direction: row;
+            flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse;
+
+            flex-wrap: wrap;
+            flex-flow: row wrap;
+
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            justify-content: space-around;
+
+            align-items: flex-end;
+            align-items: center;
+            align-items: flex-start;
+            align-items: stretch;*/
+        }
+        .items
+        {
+            background-color: tomato;
+            border: 3px solid purple;
+            margin: 10px;
+            padding: 3px;
+            width: 100px;
+            height: 100px;
+        }
+        #items-1
+        {
+           /* order: 1;
+            flex-grow: 1;
+            align-self: flex-end;*/
+        }
+        #items-2
+        {
+            /*flex-grow: 2;
+            flex-basis: 200px;
+            align-self: center;*/
+        }
+        #items-3
+        {
+            /*order: 2;
+            flex-grow: 3;
+            flex-shrink: 2;
+            align-self: flex-end;*/
+        }
+    </style>
+</head>
+<body>
+    <h1>This is FB tutorial</h1>
+    <div class="container">
+        <div class="items" id="items-1">First Box</div>
+        <div class="items" id="items-2">Second Box</div>
+        <div class="items" id="items-3">Third Box</div>
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow , Text Shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .car
+        {
+            margin: 10px 10px;
+            padding: 10px 10px;
+            background-color:aquamarine;
+            /*box-shadow: 10px 10px 10px 0px lightcoral; x , y , blur-radius , spread-radius ,color*/
+           /* box-shadow :inset 10px 10px 10px 0px lightcoral;*/
+           box-shadow: 10px 10px 10px lightcoral , 20px 20px 10px yellow;
+        }
+        .car h2
+        {
+            text-shadow: 3px 3px 10px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="car" id="car-1">
+            <h1>Car 1</h1>
+            <h2>This is Toyoto Carolla</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illo doloribus asperiores perferendis sed
+                consequatur rerum pariatur at repellat dicta soluta repudiandae accusantium ut alias, voluptates
+                doloremque reprehenderit nihil modi.</p>
+        </div>
+        <div class="car" id="car-2">
+            <h1>
+                Car 2</h1>
+                <h2>This is Alto VXR</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laborum, nisi iusto libero quas deleniti
+                illo impedit at! Distinctio veritatis incidunt sapiente exercitationem libero accusantium ex repudiandae
+                deleniti soluta voluptatibus.</p>
+        </div>
+        <div class="car" id="car-3">
+            <h1>Car 3</h1>
+            <h2>This is Mehran The Boss</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate sapiente animi aut maiores minima,
+                quos qui fuga esse repellat eos reiciendis modi obcaecati labore quas consequatur unde aperiam
+                perferendis omnis!</p>
+        </div>
+    </div>
+</body>
+
+</html>

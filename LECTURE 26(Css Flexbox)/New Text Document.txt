@@ -1,0 +1,30 @@
+Flex box is mainly used property for layouts.
+Means agar hamne kisi bhe container k ander elements ko vertically ya horizontally layout me lana he jese ham position kr k unko set krte thy flex box k through just us container ka DISPLAY:FLEX krna he to automatically wo layout ban jaega.
+
+FOR FLEXBOX WE HAVE SOME PROPERTIES : (SEPERATE PROPERTIES FOR CONTAINER(JIS K ANDER ITEMS HEIN) , AND SEPERATE PROPERTIES FOR ITEMS:-
+
+
+CONTAINER PROPERTIES:-
+-> first of all to initialize container as a flex box use display:flex
+-> second to decide the direction of items we use flexdirection:row/column ( by default it is row)
+-> third flexdirection:rowreverse , it display the items in row from reverse order ,, same goes for COLUMNREVERSE.
+-> for responsivness of flex items we use flex-wrap:wrap ,, it wrap the items if we smaller the screen to check responsiveness (IMP).(This is used to design responsive layouts).
+-> FLEX-WRAP:WRAP-REVERSE (to wrap in reverse direction)
+-> To give direction and flexwrap in a single property use flexflow (direction,wrap)
+-> To allign items in the center of screen use justifycontent:center.
+-> justifycontent:space-between is used to give equal spaces between boxes(items) except corners(starting and end). or wo pori screen b cover krlengy
+-> justifycontent:space-evenly is used to give equal spaces between items including starting and end.
+-> justifycontent:space-around is used to give equal space to all boxes beech wale boxes ma ziada jaga islia hogi because wo dono sides ki jaga consider kr k space banaega first or last k right left ma jaga islia kam hogi because only ek side ki space hogi(it distributes equally).
+
+-> ALLIGN-ITEMS:CENTER to vertically allign the items in center.(imp)
+-> ALLIGN-ITEMS:flex-end to bring the layout to bottom
+->ALLIGN-ITEMS:flex-start to bring at top(by default)
+-> ALLIGN-ITEMS:stretch to evenly space between items when checking responsiveness.
+
+ITEMS PROPERTIES:-
+
+->ORDER:1,2,3 jis bhe item k order ki value sbse ziada hogi wo item sbse akhir ma set hojaega,,is trha ham order ki values set kr k boxes ko interchange krskte hein.
+-> Flex-grow:1,2,3 etc tab use krte hein jab hamne kisi bhe item k size ko barha dikhana ho jtni bari value hogi utna bara wo show hoga..(ziada idea tab ho ga iske use ka jab responsiveness k time screen ko brhaty jae gy to item b apni value k hisab sa bara hota jaega,,,jiski value ziada hogi uska size b ziada hoga)(-ve values are invalid in FLEX-GROW.
+->Flex:shrink:1,2,3 etc work same as grow but iska use tab krte hein jab responsiveness k time screen kam krte hue jisko sbse ziada chota ya sbse ziada shrink krna ho , jski value sbse ziada hogi wo sbse ziada shrink hoga.
+->FLEX-BASIS:100px jab hamne kisi bhe item k size ko alag se change krna ho to ye uske lie use hota h (WHEN ITEMS DIRECTION IS SET TO ROW THEN IT INCREASE OR DECREASE THE WIDTH OF ITEM , AND WHEN DIRECTION IS IN COLUMN IT CHANGES THE HEIGHT OF THE ITEM).
+->ALIGN-ITEMS:FLEX-END,FLEX-START,CENTER these are the most IMPORTANT porporties , jis bhe items k sth use hongi wo items ya to flex k end ma chala jaega , vertically , ya to start me chala jaega at top , ya center ma ajaega (vertically or horizontally depending upon the flex-direction).

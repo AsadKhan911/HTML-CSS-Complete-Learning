@@ -1,0 +1,2 @@
+Suppose we write a paragrpah and we write second paragraph both will come in different linesn(as one paragraph is consider as a block element)
+but if we want both of them to come in a single line we use span tag for that.

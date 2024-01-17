@@ -1,0 +1,28 @@
+BORDERS AND BACKGROUNDS:-
+
+ background-color: blueviolet;
+            height: 100px;
+            width: 300px;
+            border-width: 4px;
+            border-style:solid;
+            border-color: brown;
+
+->First we choose bg color
+->Second we give height to the background as well widht (jtni ham dena chahy)
+->Third hamne border width di h jsiki madad sa ham border ki patti laga skte hein (more than 4px agar pati moti chiye) basically pati ko he border bolty hein
+->Fourth hamne border style solid rkha h(koi b rkh skty hein)
+->Last hamne border ko color dia h
+
+	    border-width: 4px;
+            border-style:solid;
+            border-color: brown;
+
+If we want these three to be in a single line we use , border: 2px solid green; (in a single line)
+
+If we want border corners to be curvy we use:-
+
+border-radius: property in pixels(px)
+
+If we want only give border to one side we use border-top: 4px solid green , border-bottom: , border-left: , border-right: etc
+
+like this ham radius b apni mrzi se de skte hein , border-top-left-radius:10px , border-top-right-radius: , border-bottom-right-radius: , bottom-bottom-left-radius:etc

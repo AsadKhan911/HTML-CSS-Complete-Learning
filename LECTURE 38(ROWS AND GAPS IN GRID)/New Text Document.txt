@@ -1,0 +1,6 @@
+CSS GRID ROWS:-
+
+ grid-template-rows: 1fr 4fr 1fr; Suppose we have 10 row and we use this property...its mean first item take 1fr(fraction) second will take 2fr(means 1fr*2) and third will take 1fr and rest of all items will auto take 1fr space. 
+
+If we want remaining items space to set by ourself rather than 1fr by default we will use use this:-
+ grid-auto-rows: 2fr;(it will give 2fr to all the remaining rows(items))

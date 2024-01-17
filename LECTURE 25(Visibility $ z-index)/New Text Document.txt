@@ -1,0 +1,12 @@
+In this we use $ with div or anyother element.
+Means agr hamne apni classes ko 1,2,3,4 kr k sequence me numbering deni h to we use it.(Syntax : div.box$*4) multiply by 4 means 4 divs. it will give out : class=box1 for div 1 , class=box2 for div2 etc.
+
+VISIBILITY PROPERTIES:-
+
+1). Visibility :visible  : This is used as a default visibility , jo k normally by deafault use hota h hr element k sth jski wja sa element hmn show hota h.
+
+2). Visibility :hidden   : This is used to hide the element just same as display:none property but the main difference is visibility:hidden reserve the space of that element while display:none also hide the element as well it doesnot reserve that space aswell.
+
+Z-INDEX(Z-index will work on all positions except static) : Kisi bhe reason kii wja sa positioning krte waqat agar hamare boxes ek k oper ek charh gye hein or ham chahty hein k hamara koi box bahir ki trf ajae to ham z-index ka use krte hein...z-index ki value jski bari hogi wo box ya element oper ki trf hoga.
+
+In simple words jab box ek dusre k oper charthy hein to agy ki trf se charhty hein z-index ki wja sa wo kind of peche ki trf ghus jaty hein jo k hamein greater z-index wala box pora ka pora show krwata h.

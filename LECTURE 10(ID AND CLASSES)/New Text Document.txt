@@ -1,0 +1,20 @@
+ID:- 
+
+As we know every person has a name on this planet to identify them. Same in html id is basically the name to identify elements.id means identifier. We dont waste time in checking whole code so we target that specific part through id and change the code or update it. Id should be unique. cant repeat same in any other element.
+
+Class:-
+
+In class we basically define some piece of codes(eg..bg color red, border green , head blue etc). so when we give that name class to any part it will retain all those properties.
+
+Emmets for id and classes:-
+
+span.redBG(regBG is the name of class) and enter that class will come with span auto.
+
+span#Mainid(mainid is the name of id we gave( enter that id name will be given to that element.
+
+. for class and # for id.
+
+If we want more than one classes by emmet we type span.Myclass.myclass2.myclass3 etc and enter 
+and if we want more than one spans we multiply it by the number we want.
+
+ID CAN BE UNIQUE FOR ONE ELEMENT WHILE CLASSES CAN BE UNQIUE FOR MULTIPLE ELEMENTS.

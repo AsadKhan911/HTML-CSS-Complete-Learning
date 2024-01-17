@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance selectors</title>
+    <style>
+        h1
+        {
+            color: blue;
+            background-color: antiquewhite;
+        }
+       /* div p
+        {
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+        }*/
+        div li p
+        {
+            background-color: green;
+            color: white;
+            font-weight: lighter;
+        }
+        /*div > p     affect the direct child of div
+        {
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+        }*/
+        div + p /*jis p ka pichla sibbling div ho that p will affected,means p k just oper div hona chaiye*/
+        {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Asad is a good boy</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><p>This is a paragraph</p></li>
+                <li>this will not get affected</li>
+            </ul>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+</html>

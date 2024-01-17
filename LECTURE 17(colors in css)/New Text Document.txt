@@ -1,0 +1,9 @@
+COLORS IN CSS:- (PROPERTIES OF COLORS IN ALL ASPECTS)
+
+1. First method is to simply choose the color.
+
+2. Second method is by applying RGB Function which is color:rgb(0,0,0) when you put 0,0,0 in bracket it will automatically assign black color but when you put cursor on that black color you can choose any color from the menu and ok. (MOST RECOMMENDED)
+
+3. Third is hex(#) colors just like RGB But it has it own values and used with #.(you can check # colors values from internet).
+
+JAHA JAHA HAM COLORS WALI PROPERTIES KO USE KRENGE CSS ME CHAHY WO BACKGROUND COLOR HO , FONT COLOR HO YA KISI B CHEEZ K LIE COLOR HO ,, UNME INHI 3 METHOD K THROUGH COLORS DALEN GY OR YEHI METHOD HOTE HEIN COLORS K LIA.

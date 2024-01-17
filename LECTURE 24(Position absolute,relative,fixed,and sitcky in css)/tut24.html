@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            border: 2px solid darkblue;
+            background-color: khaki;
+            height: 4000px;
+        }
+        .box
+        {
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block;
+        }
+        #box3
+        {
+            position: absolute;
+            top: 200px;
+            left: 34px;
+        }
+        #box4
+        {
+            position: relative;
+            top: 30px;
+        }
+        #box2
+        {
+            position: fixed;
+            left: 1100px;
+        }
+        #box1
+        {
+            position:sticky;
+            top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">Sticky(1)</div>
+    <div class="box" id="box2">Fixed(2)</div>
+    <div class="box" id="box3">Absolute(3)</div>
+    <div class="box" id="box4">Relative(4)</div>
+    </div>
+</body>
+</html>

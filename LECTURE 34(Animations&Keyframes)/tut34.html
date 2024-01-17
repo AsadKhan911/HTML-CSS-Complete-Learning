@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations&Keyframes</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .container
+        {
+            background-color: aqua;
+        }
+        /*#box1
+        {
+            background-color: green;
+            width: 250px;
+            height: 100px;
+            position: relative;
+            animation-name: Asad911;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+        }
+        @keyframes Asad911
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 400px;
+            }
+        }*/
+        #box1
+        {
+            background-color: green;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            animation-name: Asad911;
+            animation-duration: 10s;
+            animation-iteration-count: 3;
+            
+        }
+        @keyframes Asad911
+        {
+          0%
+          {
+            top: 0px;
+            left: 0px;
+          }
+          20%
+          {
+            top: 100px;
+            left: 0px;
+          }
+          40%
+          {
+            top:100px;
+            left: 200px;
+          }
+          60%
+          {
+            top:0px;
+            left: 200px;
+          }
+          80%
+          {
+            top: 0px;
+            left: 400px;
+          }
+
+          90%
+          {
+            top: 100px;
+            left: 400px;
+          }
+          100%
+          {
+            top: 100px;
+            left: 0;
+          }
+        }
+        #box2
+        {
+            background-color: blueviolet;
+            width: 250px;
+            height: 100px;
+            margin: 5px 0px;
+            animation-name: Asad912;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes Asad912
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 1000px;
+            }
+        }
+       
+        #box3
+        {
+            width: 250px;
+            height: 100px;
+            background-color: yellow;
+            animation-name: Asad912;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-in;
+        }
+        @keyframes Asad912
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 1000px;
+            }
+        }
+        #box4
+        {
+            width: 250px;
+            height: 100px;
+            margin: 5px 0px;
+            background-color: orange;
+            animation-name: Asad912;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease-out;
+        }
+        @keyframes Asad912
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 1000px;
+            }
+        }
+        #box5
+        {
+            width: 250px;
+            height: 100px;
+            margin: 5px 0px;
+            background-color: blue;
+            animation-name: Asad912;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-delay: 3s;
+        }
+        @keyframes Asad912
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 1000px;
+            }
+        }
+        #box6
+        {
+            width: 250px;
+            height: 100px;
+            margin: 5px 0px;
+            background-color: palevioletred;
+            animation-name: Asad912;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-direction: reverse;
+            
+        }
+        @keyframes Asad912
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1">THIS IS ANIMATION 1 (BOX 1)</div>
+        <div id="box2">THIS IS ANIMATION 2 (ANIMATION-FILL-MODE:FORWARDS)</div>
+        <div id="box3">THIS IS ANIMATION 3 (EASE-IN)</div>
+        <div id="box4">THIS IS ANIMATION 4 (EASE-OUT)</div>
+        <div id="box5">THIS IS ANIMATION 5 (ANIMATION-DELAY)</div>
+        <div id="box6">THIS IS ANIMATION 6 (ANIMATION-DIRECTION:REVERSE)</div>
+
+
+    </div>
+</body>
+</html>

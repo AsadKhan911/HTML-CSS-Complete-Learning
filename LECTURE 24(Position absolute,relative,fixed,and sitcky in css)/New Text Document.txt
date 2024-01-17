@@ -1,0 +1,13 @@
+POSITIONS:-
+
+1). Static position: static position in html/css wo position he jo kisi bhe element (div,container,img,para etc) ki by default position hoti h.
+
+2). Absolute position: We can use absolute position .. is ki madam sa ham element ko apni mrzi ki jaga per le kr ja skte hein by using position:absolute; and after that using top,bottom,left,right property with pixel. (with respect to parent).
+
+3). Relative position: Jab ham relative position lagaty hein to wo apni normal position se he hilay ga by top,bottom,left,right property.
+
+4). Fixed position: When we want k element ek jaga fixed rhe beshak ham page ko scroll kr rhe ho but wo apni jaga pr fix rhe to we use position:fixed;
+
+5). Sticky position: Jab ham chahty hein , element oper chipka rh jae we use sticky.
+
+fixed position will not occupy any space in the body, so the next element(eg: an image) will be behind the fixed element. sticky position occupies the space, so the next element will not be hidden behind it.

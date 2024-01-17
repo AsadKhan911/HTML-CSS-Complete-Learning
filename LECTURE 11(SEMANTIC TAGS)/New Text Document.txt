@@ -1,0 +1,7 @@
+SEMANTIC means meaning , these tags are used to give meaning to an html page.
+
+This is good in SEO context to rank the website early
+
+We have tag detail and it there is a tag summary...In detail we can display the content by pressing the arrow down button , but the content in summary portion will display by itself. But remember both will use together.
+
+For more tags search on google.

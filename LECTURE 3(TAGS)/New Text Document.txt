@@ -1,0 +1,9 @@
+what is in the body?
+the content in the body is all meta tags
+and the meta tag work is mainly used in SEO(SEARCH ENGINE OPTIMIZATION)(USED TO RANK WEBSITE ON GOOGLE)
+charset=utf8 means the character set will be use are utf8
+meta name = viewport......it show use the initial scale = 1.0 and set the width according to the device's width(responsive design)
+meta http-equiv=x-ua-compatible....used to display in the highest compatibility mode(especially for internet explorer)
+head includes the links of css and javascript files white body contains all the content to write 
+
+

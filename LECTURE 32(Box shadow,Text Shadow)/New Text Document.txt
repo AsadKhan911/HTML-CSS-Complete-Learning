@@ -1,0 +1,14 @@
+BOX SHADOW: To give shadow to a box ,, if we want to give shadow from downwards we will use POSITIVE number , and if we want to give shadow from upwards we will give NEGATIVE numbers. (box-shadow:x,y,color) and for BLUR RADIUS (box-shadow: x ,y , blurradius(in pixel) , color)
+
+
+INSET: If we want shadow to come inside of the box or element we will use boxshadow:inset (remaining values same) as in upper.
+
+MULTIPLE SHADOWS: If we want to give multiple color text shadow we will use the same syntax just give comma and then write for next color like this :-
+box-shadow: 10px 10px 10px lightcoral , 20px 20px 10px yellow;
+
+TEXT SHADOW:-
+
+We can also give the shadow to text in the same way just REPLACE BOX-SHADOW WITH TEXT-SHADOW
+
+USE OF TEXT SHADOW: When we have image and becasuse of that image the text is not totally visible so we can use text shadow there. so it looks more professional.
+USE OF BOX SHADOW: When the body background color and box colors are same we can use box shadow there to show presence of box.

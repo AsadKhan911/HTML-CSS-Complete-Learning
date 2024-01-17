@@ -1,0 +1,3 @@
+MEDIA QUERIES are like if else uske ander condition laga kr ham kch b pass kr skte hein and when that condition gets true that media query will fire(mean that will execute). IT IS USE FOR RESPONSIVE DESIGNS.
+
+ONLY SCREEN means just use this media query for screen(computer screen)...as their are lot of types for media queries.

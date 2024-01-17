@@ -1,0 +1,74 @@
+ANIMATION :-
+
+To make animation we must put 3 things
+
+1). animation-name : Asad911 (any name)
+2). animation-duration :2s  (pora animation 1 time hone k lia kitni der lay) (use infinite to run infinitely)
+3). animation-iteration-count: 3,4 etc (3 ya 4 dfa wo animation show ho phir ruk jae)
+4) (OPTIONAL) Aniamtion delay:3 sec (it waits for 3 sec than starts then animation.
+
+SHORT HAND : animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; (WE CAN ALSO WRITE ALL THE PROPERTIES LIKE THIS IN ONE GO)
+	     (animation: asad911 5s ease-in 1s 12 backwards;)
+
+THESE ALL 3 POINTS ARE IN THAT BOX(DIV) JISKA ANIMATION DIKHANA HE.
+
+KeyFrames:-
+
+After giving these 3 things we will make a keyframe to design the animation (to allocate the size of the animation from - to
+
+SYNTAX:-
+
+  @keyframes Asad911
+        {
+            from
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 400px;
+            }
+        }
+
+SECOND USE OF KEYFRAMES:-
+
+ @keyframes Asad911
+        {
+          0%
+          {
+            top: 0px;
+            left: 0px;
+          }
+          25%
+          {
+            top: 0px;
+            left: 100px;
+          }
+          50%
+          {
+            top:100px;
+            left: 100px;
+          }
+          100%
+          {
+            top: 100px;
+            left: 0px;
+          }
+        }
+
+This is used when we want k kis kis point pe animation kis trha behave kre , by the following syntax animation will move in the circle like movement.
+
+animation-fill-mode:forwards: This is use when we want jab animation keyframe k to size tk pohcnhe to wo waha ja kr ruk jae.
+
+animation-fill-mode:alternate: This is use when we want jab animation keyframe k to size tk pohnch kr wapis apni jaga per ajae. (this is by default set in animations).
+
+animation-timing-function: ease-in: This is use when we want jab animation shuru me slow jae or agy ja k fast hojae.
+
+animation-timing-function: ease-out: This is use when we want jab animation shuru me fast jae or agy ja k slow hojae.
+
+animation-direction:reverse: This is use to play the animation in reverse.
+
+animation-timing-function: ease-in-out: This is use when we want shuru me start hote hue bhe slow ho or end pr khtm hote hue b slow ho.
+
+
+

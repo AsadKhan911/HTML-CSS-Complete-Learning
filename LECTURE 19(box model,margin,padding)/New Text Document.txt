@@ -1,0 +1,16 @@
+What is the CSS Box Model? 
+The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself.
+
+-> First of all we have element means any heading or pagraph
+-> Then we have padding ,,padding means elements thora middle me ajaen
+-> Third we have border
+-> Fourth we have margin , margin means borders k beech ma kitna space hoga
+
+We can do margin padding manually aswell , padding top,bottom,right,left or margin top,bottom,right,left etc
+
+We can also do padding/margin directly in a single line (padding: 23px 10px 14px 10px) it will consider by deaulft as padding/margin(top right bottom left).
+
+If we want k ham padding b ziada rkhe or jo width hamne di hui he wo same rhe to we will use the property BOX-SIZING: BORDER-BOX.
+
+We have one more selector in css known as universal selector jo ham islia use krte hein k agar hamne sare elements ki kuch propoerties samne rkhni hon to wo uske ander dal den taa k sab un properties ko le lein. syntax *{}
+

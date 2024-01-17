@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibilty&Z-index</title>
+    <style>
+        .box
+        {
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+        }
+        #box1
+        {
+            background-color: green;
+            position: relative;
+            top: 35px;
+            z-index: 11;
+            
+        }
+        #box2
+        {
+            background-color: yellow;
+            /*display: none; will hide the element , aswell space
+            visibility: hidden; will hide the element but will show its empty space*/
+            position: relative;
+            z-index: 10;
+
+        }
+        #box3
+        {
+            background-color: aqua;
+            position: relative;
+            top: 40px;
+            z-index: 20;
+        }
+        #box4
+        {
+            background-color: blueviolet;
+            position: relative;
+            z-index: 21; /*as we can see because z-index of pruple is greater than blue so it is showing full and blue is half*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>
